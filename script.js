@@ -1,17 +1,17 @@
 
 const inventario = {
-    "Vainilla Pomelo": 8,
-    "Water Cool": 8,
+    "Vainilla Pomelo": 7,
+    "Water Cool": 7,
     "Floral": 8,
-    "Lavanda Manzanilla": 8,
+    "Lavanda Manzanilla": 9,
     "Bambú": 1,
-    "Mix (Elemento nativo, Serenidad y Trozos de fruta)": 3,
+    "Mix (Elemento nativo, Serenidad y Trozos de fruta)": 4,
     "Fresa Bambú": 1,
     "Fruto de la Pasión": 8,
-    "Fresa": 4,
+    "Fresa": 3,
     "Eucalipto": 10,
     "Manzana Canela": 5,
-    "Chocolate": 8,
+    "Chocolate": 9,
     "Coco Naranja": 2,
     "Verbena Fresh": 9
 };
