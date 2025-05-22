@@ -58,7 +58,6 @@ function recomendar() {
         <p><strong>Tu fragancia recomendada es:</strong></p>
         <h3>${fragancia}</h3>
         <p>Gracias por participar.</p>
-        <p><em>Esteban Suárez Russy - 9-32</em></p>
     `;
     document.getElementById("resultado").innerHTML = resultadoHTML;
 }
