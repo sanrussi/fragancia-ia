@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Recomendación de Fragancia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f8f8;
+            color: #222;
+        }
+        .container {
+            margin-top: 40px;
+        }
+        input, button {
+            font-size: 16px;
+            padding: 10px;
+            margin: 10px;
+        }
+        #resultado {
+            margin-top: 30px;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: #fff;
+            padding: 20px;
+            display: inline-block;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+        img {
+            margin-top: 20px;
+            width: 120px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Una experiencia sensorial guiada por IA</h1>
+        <h2>Esteban Suárez Russy - 9-32</h2>
+        <p>Ingresa tu nombre y cómo te sientes:</p>
+        <input type="text" id="nombre" placeholder="Tu nombre"><br>
+        <input type="text" id="emocion" placeholder="¿Cómo te sientes?"><br>
+        <button onclick="recomendar()">Descubrir fragancia</button>
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
